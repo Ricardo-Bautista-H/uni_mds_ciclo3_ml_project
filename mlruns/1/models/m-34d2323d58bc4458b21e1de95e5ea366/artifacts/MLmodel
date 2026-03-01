@@ -1,0 +1,23 @@
+artifact_path: file:D:/Documents/GitHub/uni_mds_ciclo3_ml_project/mlruns/1/models/m-34d2323d58bc4458b21e1de95e5ea366/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-34d2323d58bc4458b21e1de95e5ea366
+model_size_bytes: 865136
+model_uuid: m-34d2323d58bc4458b21e1de95e5ea366
+prompts: null
+run_id: 5165e86e178b46578e3966a8cad0ca81
+utc_time_created: '2026-03-01 05:48:06.598321'
